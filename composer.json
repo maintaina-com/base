@@ -73,6 +73,9 @@
     "require-dev": {
         "horde/test": "^3 || dev-FRAMEWORK_6_0"
     },
+    "provide": {
+        "horde/base": "^6 || dev-FRAMEWORK_6_0"
+    },
     "suggest": {
         "pear/net_dns2": "*",
         "horde/activeSync": "^3 || dev-FRAMEWORK_6_0",

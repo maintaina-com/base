@@ -47,6 +47,8 @@ state:
 license:
   identifier: LGPL-2
   uri: http://www.horde.org/licenses/lgpl
+provides:
+  horde/base: ^6
 dependencies:
   required:
     php: ^7.4 || ^8
