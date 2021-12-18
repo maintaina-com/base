@@ -49,7 +49,7 @@ license:
   uri: http://www.horde.org/licenses/lgpl
 dependencies:
   required:
-    php: ^7
+    php: ^7.4 || ^8
     composer:
       horde/alarm: ^3
       horde/argv: ^3
@@ -63,7 +63,7 @@ dependencies:
       horde/group: ^3
       horde/http: ^3
       horde/image: ^3
-      horde/loginTasks: ^3
+      horde/logintasks: ^3
       horde/mail: ^3
       horde/mime: ^3
       horde/nls: ^3
