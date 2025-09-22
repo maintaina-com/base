@@ -169,6 +169,8 @@ $logger = new Horde_Log_Logger(
 $exit_code = 0;
 
 foreach ($apps as $app) {
+    $registry->callAppMethod($app, 'init');
+
     $migrator = $migration->getMigrator($app, $logger);
 
     $cli->message("Current $app schema version: " . $migrator->getCurrentVersion());
